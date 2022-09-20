@@ -4,16 +4,6 @@
     overflow: auto;
     margin: 0 auto;
     background: black;
-    overflow: hidden;
-}
-
-.menu {
-    overflow: hidden;
-}
-
-.menu ul {
-    overflow: hidden
-    
 }
 
 .menu li a{
@@ -38,6 +28,7 @@
 
 .drop-down2 {
     display: none;
+    float: left;
 }
 
 
@@ -45,9 +36,10 @@
     display: block;
 }
 
-.drop-down1:hover .drop-down2 {
+.drop-down1 :hover .drop-down2 {
     display: block;
 }
+
 
 
 
