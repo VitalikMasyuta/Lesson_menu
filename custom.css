@@ -16,7 +16,7 @@
     text-decoration: none;
 }
 .menu li:hover a {
-    background: rgb(10, 170, 170);
+    background: #0aaaaa;
 }
 
 .drop-down1 {
@@ -38,6 +38,10 @@
 
 .drop-down1 :hover .drop-down2 {
     display: block;
+}
+
+.menu li a:hover {
+    background: #067575;
 }
 
 
